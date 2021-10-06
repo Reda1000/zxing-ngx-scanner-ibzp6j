@@ -587,15 +587,6 @@
   resolved "https://registry.yarnpkg.com/@yarnpkg/lockfile/-/lockfile-1.1.0.tgz#e77a97fbd345b76d83245edcd17d393b1b41fb31"
   integrity sha512-GpSwvyXOcOOlV70vbnzjj4fW5xW/FdUF6nQEt1ENy7m4ZCczi1+/buVUPAqmGfqznsORNFzUMjctTIp8a9tuCQ==
 
-"@zxing/library@^0.14.0":
-  version "0.14.2"
-  resolved "https://registry.yarnpkg.com/@zxing/library/-/library-0.14.2.tgz#686a4218857b21e4a6c64561769d9901bf623d94"
-  integrity sha512-n621ErZ7tba9/7GlU6LsfbDgx1fnjZNxblwKU5W4p8vHGIJ2X+/F9rAUyHq8PAUN3HkZaelhS58qhnbbVH8SBA==
-  dependencies:
-    ts-custom-error "^3.0.0"
-  optionalDependencies:
-    text-encoding "^0.7.0"
-
 "@zxing/library@^0.15.1":
   version "0.15.1"
   resolved "https://registry.yarnpkg.com/@zxing/library/-/library-0.15.1.tgz#bf1404394b3f73f7c8d970f7b66475e6cf23fef8"
@@ -605,12 +596,12 @@
   optionalDependencies:
     text-encoding "^0.7.0"
 
-"@zxing/ngx-scanner@^1.7.2":
-  version "1.7.2"
-  resolved "https://registry.yarnpkg.com/@zxing/ngx-scanner/-/ngx-scanner-1.7.2.tgz#a41d3818e7d910cab39a5212505d582ae6607a36"
-  integrity sha512-EtAr0NyoEFhDPM+94D5G3byyV35Di6UMTr+jDBV3Oujrhn+u2m5x5x8duDwEfDBp9MtQ8HQF+UXEBp/lKZWbhA==
+"@zxing/ngx-scanner@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@zxing/ngx-scanner/-/ngx-scanner-2.0.1.tgz#8180168dbdf7e40c7bc41f301351d4710f96aaf8"
+  integrity sha512-wGhmowCecnyJjycTLjth78BIUDG/wADNPqteH7Zbu9Hism05I77P3ok9KPHukNjnIJq5kF85hvxGMcxSDDEZYQ==
   dependencies:
-    "@zxing/library" "^0.14.0"
+    "@zxing/library" "^0.15.1"
     tslib "^1.9.0"
 
 JSONStream@^1.3.4:
@@ -5559,9 +5550,9 @@ querystring@0.2.0:
   integrity sha1-sgmEkgO7Jd+CDadW50cAWHhSFiA=
 
 querystringify@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.1.1.tgz#60e5a5fd64a7f8bfa4d2ab2ed6fdf4c85bad154e"
-  integrity sha512-w7fLxIRCRT7U8Qu53jQnJyPkYZIaR4n5151KMfcJlO/A9397Wxb1amJvROTK6TOnp7PfoAmg/qXiNHI+08jRfA==
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.2.0.tgz#3345941b4153cb9d082d8eee4cda2016a9aef7f6"
+  integrity sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==
 
 randomatic@^3.0.0:
   version "3.1.1"
@@ -7015,9 +7006,9 @@ urix@^0.1.0:
   integrity sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
 
 url-parse@^1.4.3:
-  version "1.4.7"
-  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.4.7.tgz#a8a83535e8c00a316e403a5db4ac1b9b853ae278"
-  integrity sha512-d3uaVyzDB9tQoSXFvuSUNFibTd9zxd2bkVrDRvF5TmvWWQwqE4lgYJ5m+x1DbecWkw+LK4RNl2CU1hHuOKPVlg==
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.3.tgz#71c1303d38fb6639ade183c2992c8cc0686df862"
+  integrity sha512-IIORyIQD9rvj0A4CLWsHkBBJuNqWpFQe224b6j9t/ABmquIS0qDU2pY6kl6AuOrL5OkCXHMCFNe1jBcuAggjvQ==
   dependencies:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
